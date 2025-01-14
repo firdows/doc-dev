@@ -5,6 +5,9 @@
    https://windows.php.net/downloads/releases/php-8.3.15-nts-Win32-vs16-x86.zip
 2. install xdebug
    https://xdebug.org/files/php_xdebug-3.4.1-8.3-nts-vs16-x86_64.dll
+3. install SQLSRV512
+   https://github.com/Microsoft/msphpsql/releases/v5.12.0
+   https://github.com/microsoft/msphpsql/archive/refs/tags/v5.12.0.zip
 
 ## Config php.ini
 1. open extension
