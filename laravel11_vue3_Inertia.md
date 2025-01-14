@@ -46,3 +46,43 @@ https://www.youtube.com/watch?v=iGnlmxA7oM8&list=PL38wFHH4qYZXCW2rlBLNdHi5cv-v_q
       ]);
   })
   ```
+
+3. Install npm vue3
+   https://inertiajs.com/client-side-setup
+   ```
+   npm install @inertiajs/vue3
+   ```
+
+   resources/js/app.js
+   ```
+    import './bootstrap';
+    import { createApp, h } from 'vue'
+    import { createInertiaApp } from '@inertiajs/vue3'
+    
+    createInertiaApp({
+      resolve: name => {
+        const pages = import.meta.glob('./Pages/**/*.vue', { eager: true })
+        return pages[`./Pages/${name}.vue`]
+      },
+      setup({ el, App, props, plugin }) {
+        createApp({ render: () => h(App, props) })
+          .use(plugin)
+          .mount(el)
+      },
+    })
+   ```
+
+4. install cofig 
+    ```
+    import vue from '@vitejs/plugin-vue';
+    ```
+
+5. run or bulid
+  ```
+  npm run dev
+  or
+  npm run build
+  ```
+
+   
+
