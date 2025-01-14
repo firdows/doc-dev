@@ -28,7 +28,6 @@
    [curl]
    ; A default value for the CURLOPT_CAINFO option. This is required to be an
    ; absolute path.
-   ;curl.cainfo =
    curl.cainfo = "D:\xampp\php-8.3.15\extras\ssl\cacert.pem"
    ``` 
 2. config xdebug
