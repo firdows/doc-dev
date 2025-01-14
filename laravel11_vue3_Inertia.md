@@ -73,6 +73,7 @@ https://www.youtube.com/watch?v=iGnlmxA7oM8&list=PL38wFHH4qYZXCW2rlBLNdHi5cv-v_q
    ```
 
 4. install cofig 
+    https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue
     ```
     import vue from '@vitejs/plugin-vue';
     ```
@@ -84,5 +85,17 @@ https://www.youtube.com/watch?v=iGnlmxA7oM8&list=PL38wFHH4qYZXCW2rlBLNdHi5cv-v_q
   npm run build
   ```
 
+
+6. install bootstrap
+   https://www.youtube.com/watch?v=ukF9v3bByCU
+   https://www.youtube.com/watch?v=Egtbegv1NhY
+  ```
+  npm install bootstrap
+  npm install -D sass-embedded
+  ```
+
+   
+   
+8. 
    
 
