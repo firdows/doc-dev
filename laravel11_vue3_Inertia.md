@@ -93,9 +93,5 @@ https://www.youtube.com/watch?v=iGnlmxA7oM8&list=PL38wFHH4qYZXCW2rlBLNdHi5cv-v_q
   npm install bootstrap
   npm install -D sass-embedded
   ```
-
-   
-   
-8. 
    
 
